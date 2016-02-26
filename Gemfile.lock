@@ -110,6 +110,8 @@ GEM
       rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    shoulda-matchers (3.1.1)
+      activesupport (>= 4.0.0)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -130,6 +132,7 @@ DEPENDENCIES
   emmet_font_awesome!
   factory_girl_rails (~> 4.6)
   rspec-rails (~> 3.4, >= 3.4.2)
+  shoulda-matchers
   sqlite3
 
 BUNDLED WITH
