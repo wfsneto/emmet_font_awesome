@@ -13,7 +13,7 @@ module EmmetFontAwesome
     end
 
     def fa_icon_text(icon, text, options = {})
-      "#{fa_fw_icon(icon, options)} #{text}"
+      "#{fa_fw_icon(icon, options)} #{text}".html_safe
     end
   end
 end
