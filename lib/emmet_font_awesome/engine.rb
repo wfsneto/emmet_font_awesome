@@ -1,6 +1,6 @@
 module EmmetFontAwesome
   class Engine < ::Rails::Engine
-    isolate_namespace EmmetFontAwesome
+    # isolate_namespace EmmetFontAwesome
 
     config.generators do |g|
       g.test_framework :rspec
