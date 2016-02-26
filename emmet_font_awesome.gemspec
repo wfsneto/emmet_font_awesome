@@ -9,17 +9,16 @@ Gem::Specification.new do |s|
   s.version     = EmmetFontAwesome::VERSION
   s.authors     = ["Walmir Neto"]
   s.email       = ["wfsneto@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of EmmetFontAwesome."
-  s.description = "TODO: Description of EmmetFontAwesome."
+  s.homepage    = "https://github.com/wfsneto/emmet_font_awesome"
+  s.summary     = "Helper for FontAwesome"
+  s.description = ""
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.2.5.1"
+  s.add_dependency 'railties', '~> 4.2', '>= 4.2.5.1'
 
-  s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails", "~> 3.4", ">= 3.4.2"
-  s.add_development_dependency "shoulda-matchers"
+  s.add_development_dependency "shoulda-matchers", "~> 3.1", ">= 3.1.1"
   s.add_development_dependency "factory_girl_rails", "~> 4.6"
 end
