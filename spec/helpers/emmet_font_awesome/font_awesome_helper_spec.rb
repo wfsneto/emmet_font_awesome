@@ -36,11 +36,13 @@ module EmmetFontAwesome
       end
 
       it 'generate icon text with options' do
-        expect(helper.fa_icon_text(:user, 'my text', foo: :bar)).to eq('<i foo="bar" class="fa fa-user fa-fw"></i> my text')
+        out = '<i foo="bar" class="fa fa-user fa-fw"></i> my text'
+        expect(helper.fa_icon_text(:user, 'my text', foo: :bar)).to eq(out)
       end
 
       it 'generate icon text with class options' do
-        expect(helper.fa_icon_text(:user, 'my text', class: :'foo-bar')).to eq('<i class="fa fa-user fa-fw foo-bar"></i> my text')
+        out = '<i class="fa fa-user fa-fw foo-bar"></i> my text'
+        expect(helper.fa_icon_text(:user, 'my text', class: :'foo-bar')).to eq(out)
       end
     end
   end
