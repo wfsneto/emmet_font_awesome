@@ -55,9 +55,12 @@ fa_icon(:user)
 fa_icon(:user, class: 'foo-bar')
 # => <i class="fa fa-user foo-bar"></i>
 
-fa_fw_icon(:flag)
-# => <i class="fa fa-flag fa-fw"></i>
+fa_icon('refresh spin 2x')
+# => <i class="fa fa-refresh fa-spin fa-2x"></i>
 
-fa_icon_text(:users, "Usuários")
+fa_fw_icon(:flag)
+# => <i class="fa fa-fw fa-flag"></i>
+
+fa_icon_text(:users, 'Usuários')
 # => <i class="fa fa-users"></i> Usuários
 ```
