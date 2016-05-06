@@ -1,0 +1,30 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 110
+
+Metrics/MethodLength:
+  Max: 10
+
+Metrics/ModuleLength:
+  Max: 600
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'Gemfile.lock'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'log/**/*'
+    - 'lib/generators/auth/install/templates/**/*'
+    - 'spec/dummy/**/*'
+    - 'config/initializers/**/*'
+
+Rails:
+  Enabled: true
