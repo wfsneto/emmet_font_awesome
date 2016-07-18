@@ -7,7 +7,7 @@ It's a Helper for [Font-Awesome](http://fortawesome.github.com/Font-Awesome/)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "emmet_font_awesome", "0.0.1"
+gem 'emmet_font_awesome', '0.0.3'
 ```
 
 And then execute:
@@ -37,13 +37,13 @@ In your `application.css`, include the css file:
 If you prefer SCSS, add this to your `application.css.scss` file:
 
 ```scss
-@import "emmet/scss/font-awesome";
+@import 'emmet/scss/font-awesome';
 ```
 
 Or LESS, add this to your `application.css.less` file:
 
 ```less
-@import "emmet/less/font-awesome";
+@import 'emmet/less/font-awesome';
 ```
 
 ### Helpers
